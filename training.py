@@ -9,7 +9,7 @@ RENDER                        = True
 STARTING_EPISODE              = 1
 ENDING_EPISODE                = 1000
 SKIP_FRAMES                   = 2
-TRAINING_BATCH_SIZE           = 64
+TRAINING_BATCH_SIZE           = 5
 SAVE_TRAINING_FREQUENCY       = 25
 UPDATE_TARGET_MODEL_FREQUENCY = 5
 
