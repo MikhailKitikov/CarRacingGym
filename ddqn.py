@@ -14,12 +14,12 @@ class CarRacingDQNAgent:
             (-1, 0, 0.2), (0, 0, 0.2), (1, 0, 0.2), # Range        -1~1       0~1   0~1
             (-1, 0,   0), (0, 0,   0), (1, 0,   0)
         ],
-        frame_stack_num = 1,
-        memory_size     = 5000,
+        frame_stack_num = 3,
+        memory_size     = 10,
         gamma           = 0.95,  # discount rate
         epsilon         = 1.0,   # exploration rate
         epsilon_min     = 0.1,
-        epsilon_decay   = 0.9999,
+        epsilon_decay   = 0.99995,
         learning_rate   = 0.001
     ):
         self.action_space    = action_space
